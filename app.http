@@ -1,0 +1,14 @@
+GET http://localhost:3033/
+###
+
+POST http://localhost:3033/register
+Content-Type: application/json
+
+{
+    "fullname":"mounika devi",
+    "email":"mounika@gmail.com",
+    "mobile":8956432123,
+    "skills":"React",
+    "password":"mounika123",
+    "confirmpassword":"mounika123"
+}
